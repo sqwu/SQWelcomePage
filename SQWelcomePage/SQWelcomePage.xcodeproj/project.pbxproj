@@ -14,8 +14,8 @@
 		42FD0FB11B73181A0045C3A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FD0FB01B73181A0045C3A5 /* Images.xcassets */; };
 		42FD0FB41B73181A0045C3A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FD0FB21B73181A0045C3A5 /* LaunchScreen.xib */; };
 		42FD0FC01B73181A0045C3A5 /* SQWelcomePageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FD0FBF1B73181A0045C3A5 /* SQWelcomePageTests.m */; };
-		42FD0FCB1B73186B0045C3A5 /* SQWelcomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FD0FCA1B73186B0045C3A5 /* SQWelcomePageViewController.m */; };
-		42FD0FCD1B7318860045C3A5 /* SQWelcomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FD0FCC1B7318860045C3A5 /* SQWelcomePageViewController.xib */; };
+		42FD0FE61B7350610045C3A5 /* SQWelcomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FD0FE41B7350610045C3A5 /* SQWelcomePageViewController.m */; };
+		42FD0FE71B7350610045C3A5 /* SQWelcomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FD0FE51B7350610045C3A5 /* SQWelcomePageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,9 @@
 		42FD0FB91B73181A0045C3A5 /* SQWelcomePageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQWelcomePageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FD0FBE1B73181A0045C3A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42FD0FBF1B73181A0045C3A5 /* SQWelcomePageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQWelcomePageTests.m; sourceTree = "<group>"; };
-		42FD0FC91B73186B0045C3A5 /* SQWelcomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQWelcomePageViewController.h; sourceTree = "<group>"; };
-		42FD0FCA1B73186B0045C3A5 /* SQWelcomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQWelcomePageViewController.m; sourceTree = "<group>"; };
-		42FD0FCC1B7318860045C3A5 /* SQWelcomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQWelcomePageViewController.xib; sourceTree = "<group>"; };
+		42FD0FE31B7350610045C3A5 /* SQWelcomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQWelcomePageViewController.h; sourceTree = "<group>"; };
+		42FD0FE41B7350610045C3A5 /* SQWelcomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQWelcomePageViewController.m; sourceTree = "<group>"; };
+		42FD0FE51B7350610045C3A5 /* SQWelcomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQWelcomePageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +86,9 @@
 		42FD0FA21B73181A0045C3A5 /* SQWelcomePage */ = {
 			isa = PBXGroup;
 			children = (
+				42FD0FE21B7350610045C3A5 /* Classes */,
 				42FD0FA71B73181A0045C3A5 /* AppDelegate.h */,
 				42FD0FA81B73181A0045C3A5 /* AppDelegate.m */,
-				42FD0FC91B73186B0045C3A5 /* SQWelcomePageViewController.h */,
-				42FD0FCA1B73186B0045C3A5 /* SQWelcomePageViewController.m */,
-				42FD0FCC1B7318860045C3A5 /* SQWelcomePageViewController.xib */,
 				42FD0FAA1B73181A0045C3A5 /* ViewController.h */,
 				42FD0FAB1B73181A0045C3A5 /* ViewController.m */,
 				42FD0FAD1B73181A0045C3A5 /* Main.storyboard */,
@@ -125,6 +123,16 @@
 				42FD0FBE1B73181A0045C3A5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42FD0FE21B7350610045C3A5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				42FD0FE31B7350610045C3A5 /* SQWelcomePageViewController.h */,
+				42FD0FE41B7350610045C3A5 /* SQWelcomePageViewController.m */,
+				42FD0FE51B7350610045C3A5 /* SQWelcomePageViewController.xib */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42FD0FCD1B7318860045C3A5 /* SQWelcomePageViewController.xib in Resources */,
+				42FD0FE71B7350610045C3A5 /* SQWelcomePageViewController.xib in Resources */,
 				42FD0FAF1B73181A0045C3A5 /* Main.storyboard in Resources */,
 				42FD0FB41B73181A0045C3A5 /* LaunchScreen.xib in Resources */,
 				42FD0FB11B73181A0045C3A5 /* Images.xcassets in Resources */,
@@ -228,7 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42FD0FCB1B73186B0045C3A5 /* SQWelcomePageViewController.m in Sources */,
+				42FD0FE61B7350610045C3A5 /* SQWelcomePageViewController.m in Sources */,
 				42FD0FAC1B73181A0045C3A5 /* ViewController.m in Sources */,
 				42FD0FA91B73181A0045C3A5 /* AppDelegate.m in Sources */,
 				42FD0FA61B73181A0045C3A5 /* main.m in Sources */,
