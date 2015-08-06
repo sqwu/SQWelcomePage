@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>249EB26C-0718-4DF4-AFD6-21B80E99A3F3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9FB102BC8532E7F6DA5A1DD6228E618EA48A9BAC</key>
+		<string>https://github.com/sqwu/SQWelcomePage.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SQWelcomePage/SQWelcomePage.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9FB102BC8532E7F6DA5A1DD6228E618EA48A9BAC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sqwu/SQWelcomePage.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9FB102BC8532E7F6DA5A1DD6228E618EA48A9BAC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9FB102BC8532E7F6DA5A1DD6228E618EA48A9BAC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SQWelcomePage</string>
+		</dict>
+	</array>
+</dict>
+</plist>
